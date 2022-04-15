@@ -1,0 +1,223 @@
+.header{
+    background-color: #ACD1FC;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.header__nav__list__list{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+.header__nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.header__nav__list__items{
+    display: inline-block;
+}
+.header__nav__list-link{
+    text-decoration: none;
+    color: black;
+}
+.header__nav__list-left .header__nav__list__items{
+    margin-right: 20px;
+}
+.header__nav__list-right .header__nav__list__items{
+    margin-left: 20px;
+}
+.header__logo-search__imglogo{
+    width: 128px;
+}
+.header__logo-search{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo-search__input{
+    width: 600px;
+    height: 40px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.header__logo-search__input:focus,.header__logo-search__button:focus{
+    outline: none;
+}
+.header__logo-search__search{
+    transform: translateX(50%);
+    right: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header__logo-search__button{
+    position: absolute;
+    right: 1px;
+    width: 50px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #470BF1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.header__logo-search__button i{
+    font-size: 1.5rem;
+}
+.header__adress__money__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header__adress__money{
+    padding: 10px 0;
+}
+.header__adress__money__items{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header__adress__money__link{
+    text-decoration: none;
+    color: black;
+}
+/* content */
+.content__sequence{
+    padding: 20px 0;
+    margin-top: 125px;
+}
+.content__sequence__link{
+    text-decoration: none;
+    color: #6895EB;
+}
+.content__while{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    display: flex;
+}
+.content__while__left{
+    width: 40%;
+    padding: 30px;
+}
+.content__while__img{
+    width: 100%;
+}
+.content__while__right{
+    width: 60%;
+    padding: 30px;
+}
+.content__while__span{
+    font-size: 2.5rem;
+}
+.content__while__money{
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.content__while__money__span{
+    color: orangered;
+    font-size: 2.0rem;
+}
+.content__while__money__span__button{
+    color: white;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1.1rem;
+}
+.content__while__endow{
+    display: flex;
+    padding: 20px 0;
+}
+.content__while__endow__span{
+    /* border: 2px solid red; */
+    color: grey;
+}
+.content__while__endow__span:nth-child(2){
+    padding-left: 10px;
+}
+.content__while__rented{
+    color: #6895EB;
+    display: flex;
+}
+.content__while__rented__text{
+    cursor: pointer;
+    font-size: 2.5rem;
+}
+.content__while__column{
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 10px;
+    background-color: white;
+}
+.content__while__column__title{
+    background-color: #EFEFEF;
+    padding: 10px 20px;
+    font-size: 2.0rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.content__while__column__span{
+    line-height: 17px;
+    font-size: 1.2rem;
+    color: grey;
+}
+.content__also{
+    margin-top: 50px;
+}
+.content__also__title{
+    font-size: 2.0rem;
+}
+.content__also__items{
+    line-height: 20px;
+}
+.content__also__link{
+    text-decoration: none;
+    color: #6895EB;
+}
+/* footer */
+.footer{
+    /* border: 2px solid red; */
+    background-color: #DBCDCD;
+}
+.footer__top{
+    padding: 20px 0;
+}
+.footer__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.footer__items{
+    flex: 1;
+    text-align: center;
+}
+.footer__link{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+}
+.footer__center{
+    width: 100%;
+    text-align: center;
+}
+.footer__bottom{
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    line-height: 20px;
+}
+.footer__bottom__span{
+    font-size: 1.0rem;
+}
+
